@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PARTH PORTFOLIO</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://kit.fontawesome.com/6289f8ea65.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class="fas fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Front-End Developer</p>
+                <p>UI/UX Designer</p>
+                <h1>Hi , I'm <span>Parth</span> From <br>MNIT</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col1">
+                    <img src="WhatsApp Image 2024-06-10 at 8.40.04 PM.jpeg" alt="">
+                </div>
+                <div class="col2">
+                    <h1 class="subT">About</h1>
+                    <p class="INd">I am an individual who is  passionate about his work , having potential , having wide range of interests , consistent at given tasks also in life , love to be fit and highly  interested in Exploring new locations.
+                        Currently, learning c++ ,  Web development   Graphics design and very good in sketching</p>
+                    <div class="TabT">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>WEB DEVELOPMENT</span><br>HTML CSS JS <br>React <br>Tailwind CSS <br>Bootstrap</li>
+                            <li><span>UI/UX Design</span><br>Figma</li>
+                            <li><span>PROGRAMING LANGUAGE</span><br>C++ DSA</li>
+                            <li><span>Git And GitHub</span><br>git branch <br> merge <br> fork <br> init command </li>
+                            <li><span>DESIGN</span><br>Graphic Designing <br>logo Designing</li>
+                            <li><span>SKETCHING</span><br>Potraite Landscape Animal</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li>none</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>B.TECH</span><br>MALAVIYA NATIONAL INSTITUTE OF TECHNOLOGY,JAIPUR <br>Branch : Metallurgy<br> CGPA : 8.27</li>
+                            <li><span>12TH </span><br> GOGATE COLLEGE,RATNAGIRI <br>MARKS : 85.50%</li>
+                            <li><span>10TH</span><br>K.M.S.P MANDAL ENGLISH MEDIUM SCHOOL KUDAL <br> MARKS: 94.40%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subT">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="pexels-divinetechygirl-1181673.jpg" alt="">
+                    <div class="layer">
+                        <h3>clone of Netflix</h3>
+                        <p>This is mine first ever project using html css only</p>
+                        <a href="https://parth630.github.io/Netflixclone/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="pexels-shkrabaanthony-4348403.jpg" alt="">
+                    <div class="layer">
+                        <h3>microsoft clone </h3>
+                        <p>This is my project using html and tailwind css</p>
+                        <a href="https://parth630.github.io/microsoftclone/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="pexels-karolina-grabowska-4219527.jpg" alt="">
+                    <div class="layer">
+                        <h3>Weather app prototype</h3>
+                        <p>Build using figma</p>
+                        <a href=" https://www.figma.com/proto/y0aDqw5LicAEIumIGB8gIj/Untitled?node-id=156-5429&t=LLXlYQWmcRLqX6o1-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=156%3A5429&show-proto-sidebar=1"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subT">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>parthpatkar169@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9834559424</p>
+                    <div class="social-icon">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/parrrttth_05/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/parth-patkar-76b419263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                        <!-- <div class="btn btn2">Download CV</div> -->
+
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="7" placeholder="Your Message"></textarea>
+                        <button type="Submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright &copy; Parth's <i class="fa-solid fa-briefcase"></i>portfolio</p>
+        </div>
+    </div>
+
+
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+    </script>
+
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.left="0";
+        }
+        function closemenu(){
+            sidemenu.style.left="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwDwOOmE2diSKXf4x877GoNp3lHPASXQUOktcnAt4aWqXe3mQEgRIXiBoE3FZ8x-MVc5w/exec'
+        const form = document.forms['submit-to-google-sheet'];
+        const msg = document.getElementById("msg");
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message Sent Successfully";
+                setTimeout(function(){
+                    msg.innerHTML=" ";
+                },5000)
+                form.reset()
+
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+      
+    
+</body>
+</html>
